@@ -1,0 +1,48 @@
+.containerfull {
+    float: left;
+    width: 100%;
+}
+.containerfull img {
+    width: 300px;
+}
+
+.container2{
+    width: 700px;
+    margin: 0 auto;
+}
+.container2 img {
+    float: left;
+    width: 25%;
+}
+.container2 .box3{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 17px 5px;
+}
+.bg1{
+    background-color: #e57905;
+}
+.bg2{
+    background-color: #fdf5d5;
+}
+.phan3{
+    width: 900px;
+    margin: 0 auto;
+}
+.bentrai{
+    float: left;
+    width: 300px;
+    padding: 20px 5px;
+}
+.benphai{
+    float: left;
+    width: 300px;
+    padding: 20px 5px;
+  
+}
+
+.camhung{
+    color:#ea8025 ;
+}
+

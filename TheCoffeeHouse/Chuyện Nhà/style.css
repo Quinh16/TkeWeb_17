@@ -1,0 +1,242 @@
+h3{
+    margin-top: 0px;
+    font-size: 17px;
+}
+h2{
+    margin-bottom: 5px;
+}
+.top-bar{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    font-size: 14px;
+    padding: 10px;
+
+}
+.top-bar span{
+    color: rgba(0, 0, 0, 0.6);
+}
+header{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(172, 168, 168, 1);
+    background: #FFFFFF;
+}
+.header_nav{
+    display: flex;
+    width: 1200px;
+    gap: 70px;
+    margin: auto;
+    height: 60px;
+    /* position: fixed; */
+}
+.header_menu > ul{
+    padding: 0;
+    margin:0;
+    height: 60px;
+    display: flex;
+    text-align: center;
+}
+.header_menu > ul > li {
+    padding: 19px 10px 19px;
+    display: inline-block;
+    margin: 0;
+}
+.header_menu > ul > li a {
+    display: block;
+    font-weight: 600;
+   
+}
+.page-header{
+    text-align: center;
+    width: 100%;
+}
+
+.name-header::after{
+    content: url("images/Vector\ 6.png");
+   
+}
+.page_content {
+    width: 648px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+    
+}
+.page-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn_nav{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.btn_nav:hover{
+    background: rgba(255, 247, 230, 1);
+    color: rgba(229, 121, 5, 1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.featured_articles{
+   margin-top: 70px;
+   margin-bottom: 110px;
+}
+.row{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.featured_article_0{     
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+.featured_article_1{
+    flex: 2;;
+}
+.article_image{
+    margin-bottom: 15px ;
+ }
+.article_content_0{
+    /* width: 750px; */
+    margin-block-start: 0px;
+    display: block;
+    margin-block-end: 0px;
+}
+
+.article_published_at{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -5px;
+}
+.article_excerpt{
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+.article_hashtag::before{
+   content: url(images/tag.png);
+   position: absolute;
+
+   transform: translate(-150%);
+}
+.article_hashtag{
+    padding-left:20px;
+    font-size: 12px;
+}
+.article_hashtag_title{
+    color: rgba(0, 0, 0, 0.6);
+}
+.article_content_title{
+   
+    color: rgba(0, 0, 0, 1);
+}
+.blog{    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.blog.blog_1{
+    background: rgba(255, 247, 230, 1);    
+    
+}
+.blog.blog_2{
+    margin-bottom: 118px;
+    margin-top: 60px ;
+}
+.featured_image_1{
+    margin-top: -50px;
+    margin-right: 35px;
+}
+.featured_image_2{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.articles_wrap::before{
+    content: url(images/Vector\ 6\ \(1\).png);
+    position: absolute;
+    transform:translateY(12px);
+}
+.articles_wrap{
+    padding: 30px;
+    margin-right: 12px;
+}
+.articles{
+    display: flex;
+    padding-bottom: 30px;
+}
+.article_title{
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    align-items: center;
+		  justify-content: center;
+}
+.article_content{
+    margin-left: 29px;
+    width: 374px;
+}
+.view_more a{    
+    text-align: center;  
+    display: inline-block;
+    padding: 9px;
+    font-size: 17px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 270px; 
+    font-weight: 600;
+    background: #fff;
+}
+.view_more {
+    text-align: center;   
+}
+
+@media (max-width: 1199px) {
+ .row{
+    flex-direction: column;
+    
+    width: 750px;
+ }
+ .featured_article_0{
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+ }
+ .blog.blog_2{
+    flex-direction: column-reverse;
+ }
+ .article_image{
+    padding-right: 15px ;
+ }
+ .featured_image_2{
+    margin: 0px;
+ }
+}
+
+@media (max-width: 800px){
+ 
+}
+@media (max-width: 600px){
+}
+
+.chuyen-nha{
+    color:#ea8025 ;
+}
